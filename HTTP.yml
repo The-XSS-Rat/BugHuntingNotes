@@ -1,0 +1,160 @@
+-
+   Enumeration step: Nikto for mapping the files
+   Comment: Nikto -host http(s)://ip:port/app
+   Usefull refference: ;
+   Goal: Site mapping
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Check the robots.txt file
+   Comment: If you can't access, maybe check for csrf
+   Usefull refference: ;
+   Goal: Site mapping
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Use BURP spider ability
+   Comment: ;
+   Usefull refference: ;
+   Goal: Site mapping
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Navigate to http://ip/~root
+   Comment: ;
+   Usefull refference: ;
+   Goal: ???
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Use CURL to find out what webserver/app you are interacting with
+   Comment: ;
+   Usefull refference: ;
+   Goal: Site mapping
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Use gobuster to map out the directories
+   Comment: Check for txt,php,asp,jsp,aspx,sh
+   Usefull refference: ;
+   Goal: Site mapping
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Check the source code
+   Comment: Look for comments, versions, hidden links, … anything interesting
+   Usefull refference: ;
+   Goal: ;
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: CEWL/John/hydra for password gen
+   Comment: ;
+   Usefull refference: ;
+   Goal: Brute force
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Check for vulnerable CMS and versions/ javascripts
+   Comment: ;
+   Usefull refference: ;
+   Goal: Injection
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: If login page: Check for default credentials
+   Comment: "Search google to find default credentials
+   Usefull refference: 
+   Goal: 
+   ;: 
+   ;: 
+   ;: 
+-
+   Enumeration step: Admin/admin
+   Comment: 
+   Usefull refference: 
+   Goal: 
+   ;: 
+   ;: 
+   ;: 
+-
+   Enumeration step: Try combinations of the words on the website"
+   Comment: ;
+   Usefull refference: injection
+   Goal: ;
+   ;: ;
+   ;: ;
+   ;: 
+-
+   Enumeration step: SQL injection
+   Comment: https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)
+   Usefull refference: ;
+   Goal: Injection
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Command injection in PHP
+   Comment: Php_exec() function makes syslevel calls
+   Usefull refference: ;
+   Goal: Injection/execution
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: LFI/RFI
+   Comment: To execute payload
+   Usefull refference: ;
+   Goal: Execution
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: File upload
+   Comment: Web.config, aspx,php,php3,pht,aspx,txt
+   Usefull refference: ;
+   Goal: FTP
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: RCE
+   Comment: ;
+   Usefull refference: ;
+   Goal: ;
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Look at the config files
+   Comment: ;
+   Usefull refference: ;
+   Goal: ;
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Look for hidden data on image tags
+   Comment: ;
+   Usefull refference: ;
+   Goal: ;
+   ;: ;
+   ;: ;
+   ;: ;
+-
+   Enumeration step: Cgi-bin file enum
+   Comment: ;
+   Usefull refference: ;
+   Goal: ;
+   ;: ;
+   ;: ;
+   ;: ;
